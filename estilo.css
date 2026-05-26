@@ -108,6 +108,18 @@ ul, ol {
 li {
   margin-bottom: 10px;
 }
+.lista-paradas {
+  padding-left: 0;
+  list-style: none;
+}
+.lista-paradas li {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border-left: 4px solid #2A5FAC;
+  color: #1a1a1a;
+}
 a {
   color: #2A5FAC;
   text-decoration: underline;
