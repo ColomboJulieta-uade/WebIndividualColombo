@@ -156,20 +156,18 @@ figcaption {
   border-top: 3px solid #CC1010;
   text-align: center;
 }
-#mapa figure {
-  max-width: 600px;
-  margin: 16px auto 20px auto;
-}
-#mapa figure img {
+.img-mapa {
+  width: 100%;
   height: auto;
-  object-fit: unset;
-}
-iframe {
-  display: block;
-  border: 3px solid #2A5FAC;
   border-radius: 6px;
-  margin-top: 16px;
-  margin-bottom: 24px;
+  border: 1px solid #aaa;
+  margin-bottom: 8px;
+}
+.caption-mapa {
+  text-align: center;
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 20px;
 }
 .terminales {
   display: flex;
@@ -245,9 +243,6 @@ footer a:hover {
   }
   .terminales {
     flex-direction: column;
-  }
-  iframe {
-    height: 300px;
   }
   h1 {
     font-size: 27px;
