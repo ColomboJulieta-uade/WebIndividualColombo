@@ -143,10 +143,6 @@ figure {
   overflow: hidden;
   margin-bottom: 20px;
 }
-#mapa figure {
-  max-width: 600px;
-  margin: 16px auto 20px auto;
-}
 figure img {
   width: 100%;
   height: 180px;
@@ -159,6 +155,14 @@ figcaption {
   color: #444;
   border-top: 3px solid #CC1010;
   text-align: center;
+}
+#mapa figure {
+  max-width: 600px;
+  margin: 16px auto 20px auto;
+}
+#mapa figure img {
+  height: auto;
+  object-fit: unset;
 }
 iframe {
   display: block;
@@ -255,4 +259,3 @@ footer a:hover {
     padding: 8px;
   }
 }
- 
