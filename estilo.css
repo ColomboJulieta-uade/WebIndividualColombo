@@ -157,8 +157,7 @@ figcaption {
   text-align: center;
 }
 .img-mapa {
-  width: 600px;
-  max-width: 100%;
+  width: 300px;
   height: auto;
   border-radius: 6px;
   border: 1px solid #aaa;
