@@ -157,11 +157,13 @@ figcaption {
   text-align: center;
 }
 .img-mapa {
-  width: 100%;
+  width: 600px;
+  max-width: 100%;
   height: auto;
   border-radius: 6px;
   border: 1px solid #aaa;
-  margin-bottom: 8px;
+  margin: 0 auto 8px auto;
+  display: block;
 }
 .caption-mapa {
   text-align: center;
