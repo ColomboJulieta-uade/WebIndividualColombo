@@ -1,3 +1,4 @@
+css
 * {
   margin: 0;
   padding: 0;
@@ -156,6 +157,12 @@ figcaption {
   border-top: 3px solid #CC1010;
   text-align: center;
 }
+#mapa figure {
+  max-width: 100%;
+}
+#mapa figure img {
+  height: auto;
+}
 iframe {
   display: block;
   border: 3px solid #2A5FAC;
@@ -243,5 +250,11 @@ footer a:hover {
   }
   h1 {
     font-size: 27px;
+  }
+  table {
+    font-size: 13px;
+  }
+  tbody td, thead th {
+    padding: 8px;
   }
 }
